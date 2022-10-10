@@ -1,0 +1,98 @@
+header {
+    background-color:yellow
+}
+.CompraEnCuotas {
+    margin-left: 30px;
+}
+ul {
+    list-style: none;
+    padding-left: 5px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#menuBurger{
+    text-align: center;
+}
+
+.Burger{
+    background-color: blue;
+    color: white;
+    background-size:cover;
+    border-style: solid;
+    border-color: blue;
+    border-radius: 20%;
+    padding: 3px;
+}
+p.precios{
+    font-size: 18px;
+}
+p.Descuentos{
+    font-size: 16px;
+    color: green;
+}
+p.Descripciones{
+    font-size: 16px;
+    font-weight: bold;
+}
+h3{
+    font-size: 23px;
+}
+p{
+    font-size: 12px;
+}
+
+
+.imgLogo{
+    width: 300px;
+    padding-left: 15px;
+    margin-top: 10px;
+}
+
+input.buscador{
+    margin-left: 15px;
+    display: block;
+}
+i#iconBuscar{
+    background-color: white;
+    margin-left: 15px;
+    color: black;
+    margin-top: 2px;
+    border-radius: 10%;
+    border-style:solid;
+    border-color:grey;
+    border-width: 1px;
+}
+header,main,footer{
+    font-family: roboto;
+}
+
+footer{
+    text-align: center;
+}
+footer i{
+    color: blue;
+    font-size: 2em;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+footer p{
+    padding-left: 15%;
+    padding-right: 15%;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+footer p.negrita{
+    font-weight: bold;
+    margin-bottom: 3px;
+    margin-top: 3px;
+}
+footer p.copyright{
+   
+    margin-top: 30px;
+}
+div.IconTruck{
+    color: green;
+}
