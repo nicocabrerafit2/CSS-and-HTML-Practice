@@ -1,5 +1,13 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto";
+    background-color:#ebebeb
+}
+
 header {
-    background-color:yellow
+    background-color:#EAC926;
 }
 .CompraEnCuotas {
     margin-left: 30px;
@@ -17,11 +25,11 @@ a{
 }
 
 .Burger{
-    background-color: blue;
+    background-color: #03264C;;
     color: white;
     background-size:cover;
     border-style: solid;
-    border-color: blue;
+    border-color: #03264C;;
     border-radius: 20%;
     padding: 3px;
 }
@@ -64,9 +72,7 @@ i#iconBuscar{
     border-color:grey;
     border-width: 1px;
 }
-header,main,footer{
-    font-family: roboto;
-}
+
 
 footer{
     text-align: center;
@@ -94,5 +100,70 @@ footer p.copyright{
     margin-top: 30px;
 }
 div.IconTruck{
-    color: green;
+    color: #39b54a;;
 }
+
+main{
+    text-align: center;
+    width:90vw;
+    background-color: #ebebeb;
+}
+
+.producto{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+.textoDeProducto{
+    border-top: 1px solid #ebebeb;
+    padding: 15px;
+}
+
+p.Descripciones{
+    display: none;
+}
+
+nav.QuitarListas ul{
+    display: none;
+}
+
+
+
+
+
+@media (min-width:361px){/*Configuracion para tablets*/
+    p.Descripciones{display:contents;
+        
+    }
+    .producto{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    nav.QuitarListas ul{
+        display: contents;
+    }
+    #menuBurger{
+        display: none;
+    }
+}
+
+
+
+
+
+
+@media (min-width:769px){/*Configuracion para desktop*/
+    p.Descripciones{display:contents;
+        
+    }
+    .producto{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    nav.QuitarListas ul{
+        display: contents;
+    }
+    #menuBurger{
+        display: none;
+    }
+}
+
