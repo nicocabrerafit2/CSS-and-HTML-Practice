@@ -3,11 +3,12 @@
 }
 body{
     font-family: "Roboto";
-    background-color:#ebebeb
+    background-color: red;
 }
 
 header {
     background-color:#EAC926;
+    
 }
 .CompraEnCuotas {
     margin-left: 30px;
@@ -103,17 +104,30 @@ div.IconTruck{
     color: #39b54a;;
 }
 
+
 main{
-    text-align: center;
+    
     width:90vw;
     background-color: #ebebeb;
+    margin: auto;
+}
+
+section{
+    text-justify: auto;
+}
+.producto img{
+    width:70vw;
 }
 
 .producto{
     margin-top: 10px;
     margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
     background-color: white;
     transition:all 0,5s;
+    padding: 15px;
+    text-align: center;
 }
 .producto:hover{
         box-shadow: 0px 0px 15px rgb(100, 100, 100);
@@ -148,7 +162,7 @@ transition: background-color color 450ms;
 
 .textoDeProducto{
     border-top: 1px solid #ebebeb;
-    padding: 15px;
+    
 }
 
 
