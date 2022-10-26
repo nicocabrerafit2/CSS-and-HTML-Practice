@@ -103,15 +103,15 @@ p{
     flex-grow: 0.5;
     display: flex;
     padding: 15px 15px 15px 15px;
+    
 }
 
 input.buscador{
     /*margin-left: 15px;
     display: inline;
     flex-grow: 0.5;*/
-    display: flex;
+    width: 100%;
     
-   
     
 }
 i#iconBuscar{
@@ -123,7 +123,7 @@ i#iconBuscar{
     border-style:solid;
     border-color:grey;
     border-width: 1px;
-
+margin-left: 20px;
 }
 
 
