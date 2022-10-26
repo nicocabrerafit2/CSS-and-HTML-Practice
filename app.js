@@ -15,9 +15,10 @@ app.get('/register', (req,res) => {
 )})
 
 
-app.listen( 3000, () =>{
-    console.log('Esta corriendo por puerto',3000);
-})
+const port = process.env.PORT || 3000;
+
+app.listen(port, () => console.log('Servidor corriendo en el puerto ${port}'));
+
 
 app.use(express.static('public'));
 
