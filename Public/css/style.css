@@ -62,7 +62,7 @@ input.buscador{
 
 body{
     font-family: "Roboto";
-    background-color: red;
+    background-color: #ebebeb;
 }
 
 
@@ -397,11 +397,17 @@ nav.QuitarListas ul li{
     flex-basis: 100%;
     text-align: left;
     margin: 20px;
+    color:dimgrey;
 }
 
 }
 
-
-
+@media (min-width:361px){/*Configuracion para descktop*/
+    .producto {
+        flex-basis: 22%;
+    }
+   
+    
+}
 
 
