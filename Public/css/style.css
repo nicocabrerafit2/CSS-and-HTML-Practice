@@ -327,6 +327,22 @@ footer{
     justify-content: space-between;
 }
 
+.Login{
+   
+    text-align: center;
+    margin: 50px;
+}
+.Login p{
+    margin: 20px;
+}
+.Register{
+    text-align: center;
+    margin: 50px;
+    
+}
+.Register p{
+    margin: 20px;
+}
 
 
 

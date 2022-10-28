@@ -15,33 +15,33 @@ rel="stylesheet" />
 </head>
 <body>
     <header>
-     <img class='imgLogo' src="images/logo-mercado-liebre.svg" />
-     <p> </p>
-     <input class='buscador' type="text" placeholder=" Buscar productos, marcas" name="search" >
-     <a href=""><i id="iconBuscar" class="fas fa-search"></i></a>
-
-      
-     <h4 class="CompraEnCuotas"><i class="fas fa-hand-holding-usd"></i>  Comprá en cuotas y sin tarjeta de crédito</h4>
-     <nav class="QuitarListas">
-        <ul>
-            <li><a href = '#'>Ofertas</a></li>
-            <li><a href = '#'>Tiendas Oficiales</a></li>
-            <li><a href = '#'>Vender</a></li>
-            <li><a href = '#'>Ayuda</a></li>
-        </ul>
-        <ul>
-            <li><a href = '/register'>Creá tu cuenta </a><i class="far fa-id-card"></i></li>
-            <li><a href = '/login'>Ingresá </a><i class="fas fa-sign-in-alt"></i></li>
-            <li><a href = '#'>Mis compras </a><i class="fas fa-shopping-basket"></i></li>
-        </ul>
-        <div id="menuBurger">
-            <a class="Burger" href="/"><i class="fas fa-bars"></i></a>
-        </div>
-        <br></br>
-        
-     </nav>
-    </header>
-    <main>
+        <div class="EncabezadoHeader">
+           <div class="imgLogoEncabezado"> <img class='imgLogo' src="images/logo-mercado-liebre.svg" /></div>
+           <div class="buscadoConLupa"><input class='buscador' type="text" placeholder=" Buscar productos, marcas" name="search" ><i id='iconBuscar' class="fa-solid fa-magnifying-glass"></i></div>
+           <div class="CompraEnCuotas2"><h4 class="CompraEnCuotas"><i class="fa-solid fa-hand-holding-dollar"></i>  Comprá en cuotas y sin tarjeta de crédito</h4></div>
+       </div>
+        <nav class="QuitarListas">
+           <ul>
+               <li><a href = ''>Ofertas</a></li>
+               <li><a href = ''>Tiendas Oficiales</a></li>
+               <li><a href = ''>Vender</a></li>
+               <li><a href = ''>Ayuda</a></li>
+           </ul>
+           <ul>
+               <li><a href = '/register'>Creá tu cuenta </a><i class="fa-solid fa-id-card"></i></li>
+               <li><a href = '/login'>Ingresá </a><i class="fa-solid fa-arrow-right-to-bracket"></i></li>
+               <li><a href = ''>Mis compras </a><i class="fa-solid fa-basket-shopping"></i></li>
+           </ul>
+           <div id="menuBurger">
+               <a class="Burger" href="/"><i class="fa-solid fa-bars"></i></a>
+           </div>
+           
+        </nav>
+       
+           <img class="imgLogo2" src="images/img-home-banner.jpg" />
+           
+       </header>
+    <main class="Register">
         <form action="/">
         <p>
             <label>Nombre y Apellido:</label>
