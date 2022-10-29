@@ -347,7 +347,7 @@ footer{
 
 
 
-@media (min-width:361px){/*Configuracion para tablets*/
+@media (min-width:768px){/*Configuracion para tablets*/
     
     
    
@@ -418,7 +418,7 @@ nav.QuitarListas ul li{
 
 }
 
-@media (min-width:361px){/*Configuracion para descktop*/
+@media (min-width:1024px){/*Configuracion para descktop*/
     .producto {
         flex-basis: 22%;
     }
