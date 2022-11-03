@@ -349,14 +349,16 @@ footer{
 .Login{
    
     text-align: center;
-    margin: 50px;
+    
+    margin-top: 161px;
 }
 .Login p{
     margin: 20px;
 }
 .Register{
     text-align: center;
-    margin: 50px;
+
+    margin-top: 161px;
     
 }
 .Register p{
