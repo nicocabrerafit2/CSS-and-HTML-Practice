@@ -6,7 +6,10 @@
 
 header {
     background-color:#EAC926;
-    
+    position:fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
 }
 
 
@@ -21,8 +24,23 @@ header {
     height: 30%;
     margin: auto;
     padding: 15px 15px 15px 15px;
-    
+    animation:imgLogoEncabezadoLate 1s linear infinite alternate ;
 }
+@keyframes imgLogoEncabezadoLate {
+  0%{
+    transform: scale(1);
+  }
+  100%{
+    transform: scale(1.1);
+  }
+  
+}
+
+
+
+
+
+
 .buscadoConLupa{
     width: 50%;
     
@@ -31,7 +49,7 @@ header {
 input.buscador{
    
     width: 85%;
-    height: 100%;
+    height: 30px;
 }
 .fa-magnifying-glass{
     background-color: white;
@@ -52,7 +70,6 @@ input.buscador{
 /*-------------------------------------------------BANNER------------------------------------------------*/
 .imgLogo2{
     width: 100%;
-    margin-top: 20px;
 }
 
 
@@ -78,6 +95,7 @@ a{
 #menuBurger{
     text-align: center;
     font-size:x-large;
+    margin-bottom: 20px;
 }
 
 .Burger{
@@ -231,6 +249,7 @@ main{
     width:90vw;
     background-color: #ebebeb;
     margin: auto;
+    margin-top: 161px;
 }
 
 section{
