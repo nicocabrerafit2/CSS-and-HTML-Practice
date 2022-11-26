@@ -6,18 +6,9 @@ const path = require("path");
 app.use(express.static(__dirname + "/Public"));
 //configuro app.js para que pueda usar los archivos ejs
 app.set("view engine", "ejs");
-
-app.get("/", (req, res) => {
-  res.sendFile(path.join(__dirname + "/views/home.html"));
-});
-
-app.get("/login", (req, res) => {
-  res.sendFile(path.join(__dirname + "/views/login.html"));
-});
-
-app.get("/register", (req, res) => {
-  res.sendFile(path.join(__dirname + "/views/register.html"));
-});
+// para avisarle a app.js que tengo una carpeta de rutas y use esas rutas. la requiero y luego la uso
+const mainRoutes = require("./routes/mainRoutes"); // Rutas main
+app.use("/", mainRoutes);
 
 const port = process.env.PORT || 3000;
 
