@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include ('./partials/head') %>
+<body>
+  <%- include ('./partials/header') %>
+    <main class="Login">
+      <img class="imgLogo2" src="images/img-home-banner.jpg" />
+        <form action="/">
+            <p>
+                <label>Nombre de usuario:</label>
+                <input type="text" name="usuario" placeholder="Ingresá tu id de usuario" required>
+            </p>
+            <p>
+                <label>Contraseña:</label>
+                <input type="password" name="contrasena" placeholder="Ingresá tu contraseña" required/>
+            </p>
+            <p>
+                <button type="submit" class="ButtonLogin">Login</button>
+            </p>
+        </form>
+        <%- include ('./partials/footer') %>
+    </main>
+</body>
+</html>
